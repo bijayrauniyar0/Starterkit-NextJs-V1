@@ -6,11 +6,11 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import ErrorMessage from "@/components/ui/ErrorMessage";
 import { Label } from "@/components/ui/form";
 import { Input } from "@/components/ui/form/input";
-import PasswordInput from "@/components/ui/form/password-input";
+import { PasswordInput } from "@/components/ui/form/password-input";
 import { FlexColumn, FlexRow } from "@/components/ui/layouts";
 import { authResource, LoginPayload } from "@/features/auth/services";
 import { apiURL } from "@/services/index";

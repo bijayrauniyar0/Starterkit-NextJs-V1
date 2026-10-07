@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import ErrorMessage from "@/components/ui/ErrorMessage";
 import { Input, Label } from "@/components/ui/form";
 import { FlexColumn } from "@/components/ui/layouts";

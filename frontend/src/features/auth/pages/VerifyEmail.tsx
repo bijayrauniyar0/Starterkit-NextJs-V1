@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 import CountdownTimer from "@/components/common/CountdownTimer";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import { FlexColumn, FlexRow } from "@/components/ui/layouts";
 import useAuthStore from "@/store/auth";
 

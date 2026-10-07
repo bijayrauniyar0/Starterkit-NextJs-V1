@@ -3,7 +3,7 @@ import { AlertCircle } from "lucide-react";
 import { useParams } from "next/navigation";
 
 import CountdownTimer from "@/components/common/CountdownTimer";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import useAuthStore from "@/store/auth";
 
 import { useSendVerificationEmail } from "../../api";

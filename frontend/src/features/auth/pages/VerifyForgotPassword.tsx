@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 import CountdownTimer from "@/components/common/CountdownTimer";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import { FlexColumn, FlexRow } from "@/components/ui/layouts";
 import { useSendPasswordResetEmail } from "@/features/auth/api";
 import useAuthStore from "@/store/auth";

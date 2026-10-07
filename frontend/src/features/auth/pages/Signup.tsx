@@ -6,10 +6,10 @@ import { toast } from "sonner";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import ErrorMessage from "@/components/ui/ErrorMessage";
 import { Input, Label } from "@/components/ui/form";
-import PasswordInput from "@/components/ui/form/password-input";
+import { PasswordInput } from "@/components/ui/form/password-input";
 import { FlexColumn } from "@/components/ui/layouts";
 import { authResource, SignupPayload } from "@/features/auth/services";
 import { signupValidation } from "@/features/auth/validations";
@@ -65,7 +65,7 @@ const SignupForm = () => {
     <div className="login-inner grid h-full place-items-center">
       <div className="login-form w-full space-y-8 overflow-hidden p-7 text-center sm:min-w-[25.25rem] sm:px-12 lg:px-16">
         <p className="text-primary text-5xl font-semibold select-none">
-          MockSewa
+          Starter Kit
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)}>

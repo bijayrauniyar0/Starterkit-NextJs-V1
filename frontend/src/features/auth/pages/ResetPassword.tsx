@@ -5,10 +5,10 @@ import { toast } from "sonner";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/primitives/button";
 import ErrorMessage from "@/components/ui/ErrorMessage";
 import { Label } from "@/components/ui/form";
-import PasswordInput from "@/components/ui/form/password-input";
+import { PasswordInput } from "@/components/ui/form/password-input";
 import { FlexColumn } from "@/components/ui/layouts";
 import { authResource, ResetPasswordPayload } from "@/features/auth/services";
 import { resetPasswordValidation } from "@/features/auth/validations";

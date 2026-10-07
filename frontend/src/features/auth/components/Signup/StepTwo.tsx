@@ -3,7 +3,7 @@ import { useFormContext } from "react-hook-form";
 
 import ErrorMessage from "@/components/ui/ErrorMessage";
 import { Checkbox, Label } from "@/components/ui/form";
-import PasswordInput from "@/components/ui/form/password-input";
+import { PasswordInput } from "@/components/ui/form/password-input";
 import { FlexColumn } from "@/components/ui/layouts";
 
 export default function StepTwo() {
