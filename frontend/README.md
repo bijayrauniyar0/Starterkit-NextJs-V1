@@ -1,7 +1,3 @@
----
-
-# NAXA React Starter Kit v6
-
 This starter kit provides a robust, production-ready foundation for building modern web applications with Next.js 15, TypeScript, and Tailwind CSS. It emphasizes a modular architecture, centralized state management, and a powerful service layer for API interactions.
 
 ---
@@ -15,18 +11,13 @@ This starter kit provides a robust, production-ready foundation for building mod
 
 ### Installation
 
-1. Clone the repository.
-
-   ```bash
-   git@github.com:naxa-developers/frontend-starterkit-v6.git
-   ```
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    pnpm install
    ```
-3. Configure environment variables by copying `env.txt` to `.env.local` and filling required values.
-4. Start the development server:
+2. Configure environment variables by copying `env.txt` to `.env.local` and filling required values.
+3. Start the development server:
 
    ```bash
    pnpm dev
