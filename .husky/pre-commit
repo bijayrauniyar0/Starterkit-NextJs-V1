@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if ! git diff --cached --quiet -- frontend; then
+  echo "Running frontend lint-staged..."
+  pnpm --dir frontend exec lint-staged || exit 1
+fi
+
+if ! git diff --cached --quiet -- backend; then
+  echo "Running backend lint-staged..."
+  yarn --cwd backend lint-staged || exit 1
+fi
